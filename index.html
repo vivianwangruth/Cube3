@@ -3,53 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Professional Website</title>
+    <title>Cube3 - Professional Website</title>
     <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            background-color: black !important;
+            color: white !important;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #1a1a1a !important;
+            padding: 15px 0;
+            text-align: center;
+            border-bottom: 2px solid white;
+        }
+        nav a {
+            color: white !important;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ccc;
         }
         header {
             text-align: center;
-            padding: 50px;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #1a1a1a 0%, black 100%);
+        }
+        header h1 {
+            color: white !important;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        header p {
+            color: #aaa !important;
+            font-size: 18px;
         }
         section {
-            padding: 20px;
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            border-bottom: 1px solid #333;
+        }
+        section h2 {
+            color: white !important;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        section p {
+            color: white !important;
+            font-size: 16px;
+            line-height: 1.8;
         }
         footer {
+            background-color: #1a1a1a !important;
             text-align: center;
-            padding: 20px;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
+            padding: 30px;
+            color: white !important;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Professional Website</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <header id="home">
+        <h1>Cube3</h1>
+        <p>Welcome to My Professional Website</p>
     </header>
+    
     <section id="about">
         <h2>About Me</h2>
-        <p>Write a brief introduction about yourself here.</p>
+        <p>Hello! I'm a professional dedicated to delivering exceptional results. With years of experience in my field, I'm passionate about creating innovative solutions and helping clients achieve their goals.</p>
     </section>
+    
     <section id="services">
         <h2>Services</h2>
-        <p>Detail your services here.</p>
+        <p>I offer a wide range of services tailored to meet your specific needs:</p>
+        <ul style="color: white; margin-top: 20px; margin-left: 20px;">
+            <li>Service 1 - Professional consulting and strategy</li>
+            <li>Service 2 - Custom solutions and implementation</li>
+            <li>Service 3 - Support and maintenance</li>
+            <li>Service 4 - Training and development</li>
+        </ul>
     </section>
+    
     <section id="portfolio">
         <h2>Portfolio</h2>
-        <p>Showcase your work here.</p>
+        <p>Here are some of my recent projects and achievements. Each project showcases my commitment to quality and innovation:</p>
+        <ul style="color: white; margin-top: 20px; margin-left: 20px;">
+            <li>Project 1 - Description</li>
+            <li>Project 2 - Description</li>
+            <li>Project 3 - Description</li>
+        </ul>
     </section>
+    
     <section id="contact">
-        <h2>Contact</h2>
-        <p>How to contact you.</p>
+        <h2>Contact Me</h2>
+        <p>I'd love to hear from you! Feel free to reach out with any questions or inquiries:</p>
+        <p style="margin-top: 20px;">
+            Email: your@email.com<br>
+            Phone: +1 (XXX) XXX-XXXX<br>
+            Address: Your City, Your Country
+        </p>
     </section>
+    
     <footer>
-        <p>&copy; 2026 Your Name. All rights reserved.</p>
+        <p>&copy; 2026 Cube3. All rights reserved.</p>
     </footer>
 </body>
 </html>
