@@ -3,34 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cube3</title>
+    <title>My Professional Website</title>
     <style>
         body {
             background-color: black;
             color: white;
-            display: flex;
-            height: 100vh;
+            font-family: Arial, sans-serif;
             margin: 0;
+            padding: 0;
         }
-        .left {
-            flex: 1;
-            padding: 20px;
-            border-right: 2px solid white;
+        header {
+            text-align: center;
+            padding: 50px;
         }
-        .right {
-            flex: 1;
+        section {
             padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <div class="left">
-        <!-- Left section content goes here -->
-        <h1>Left Section</h1>
-    </div>
-    <div class="right">
-        <!-- Right section content goes here -->
-        <h1>Right Section</h1>
-    </div>
+    <header>
+        <h1>Welcome to My Professional Website</h1>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself here.</p>
+    </section>
+    <section id="services">
+        <h2>Services</h2>
+        <p>Detail your services here.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Showcase your work here.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>How to contact you.</p>
+    </section>
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>
