@@ -1,1 +1,39 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Product Page</title>\n    <style>\n        body {\n            background-color: black;\n            color: white;\n            display: flex;\n            flex-direction: row;\n        }\n        .description {\n            flex: 1;\n            padding: 20px;\n        }\n        .media {\n            flex: 1;\n            padding: 20px;\n        }\n    </style>\n</head>\n<body>\n    <div class="description">\n        <h1>Product Description</h1>\n        <p>This is where the product description will go. It provides details about the product's features, benefits, and specifications.</p>\n    </div>\n    <div class="media">\n        <h2>Media Section</h2>\n        <p>This section will contain images or videos related to the product.</p>\n    </div>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .description {
+            flex: 1;
+            padding: 20px;
+            border-right: 1px solid #555;
+        }
+        .media {
+            flex: 1;
+            padding: 20px;
+        }
+        h1, h2, p {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="description">
+        <h1>Product Description</h1>
+        <p>This is where your product description goes. Add details about your product, features, and benefits here.</p>
+    </div>
+    <div class="media">
+        <h1>Media Section</h1>
+        <p>This section is for videos, photos, and article links related to your product.</p>
+    </div>
+</body>
+</html>
